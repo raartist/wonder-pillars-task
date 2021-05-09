@@ -1,10 +1,17 @@
 .App {
   text-align: center;
+  margin-top: 30px;
+  margin: 30px 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.my-btn-right {
+  text-align: right;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
